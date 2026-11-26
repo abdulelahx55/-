@@ -199,9 +199,19 @@
             color: #27ae60;
             min-height: 32px;
         }
+        /* مساحة البانر الإعلاني تحت إجمالي الراتب */
+        .ad-banner-box {
+            margin-top: 16px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 8px;
+        }
         /* تنسيق قسم التواصل الاجتماعي */
         .social-footer {
-            margin-top: 22px;
+            margin-top: 18px;
             padding-top: 16px;
             border-top: 1px solid #eef1f5;
             display: flex;
@@ -295,6 +305,12 @@
     <div class="result-box">
         <p id="resultLabel">إجمالي الراتب النهائي:</p>
         <p class="total" id="totalResult"></p>
+    </div>
+
+    <!-- البانر الإعلاني تحت إجمالي الراتب -->
+    <div class="ad-banner-box">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2929276146731666"
+             crossorigin="anonymous"></script>
     </div>
 
     <!-- أزرار التواصل الاجتماعي في النهاية -->
